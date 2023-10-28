@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:rgb(212, 208, 208);
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    padding: 30px;
+    gap:700px;
+    display: flex;
+    background-color: rgb(14, 14, 52);
+    color: white;
+    height: 50px;
+}
+li,a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    cursor: pointer;
+   margin-left:20px; 
+}
+.main-right ul{
+    margin-top: 10px;
+    display: flex;
+    gap:30px;
+    font-size: 20px;
+    
+}
+.main-right ul li a:hover{
+      background-color: white;
+      color: black;
+      padding: 5px; 
+      border-radius: 15px;
+      transition: 1s;
+}
+.main-right .hide{
+    display: none;
+}
+.service{
+position: relative;
+}
+.hide.unhide{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+    background-color: rgb(14, 14, 52);
+    width:300px;
+    margin-top: 40px;
+    padding: 20px 0px 20px 20px;
+}
+.hide.unhide:hover{
+    background-color: white;
+    color: black;
+    padding: 10px; 
+    border-radius: 15px;
+    transition: 1s;
+}

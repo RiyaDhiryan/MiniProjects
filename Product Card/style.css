@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+     padding:0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(122, 67, 166);
+}
+.container{
+    border-radius: 20px;
+ padding-top: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width:400px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.Shoe img{
+    height: 300px;
+    width: 300px;
+}
+.Head{
+     display: flex;
+    justify-content:space-around;
+    gap:250px;
+    margin-bottom:20px ;
+}
+h1{
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+    color: rgb(90, 87, 87);
+}
+button{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    border:none;
+    background-color:rgb(122, 67, 166);
+    padding:10px 110px;
+    cursor: pointer;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+sup{
+    color: green;
+ 
+}
+.Ratings{
+    margin-left: 20px;
+}
